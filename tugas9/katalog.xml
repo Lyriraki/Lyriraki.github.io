@@ -1,0 +1,38 @@
+<katalog>
+    <buku category="WEB">
+        <judul bahasa="en">Learning XML</judul>
+        <pengarang>Erik T.Ray</pengarang>
+        <tahun>2003</tahun>
+        <harga>100.000</harga>
+    </buku>
+    <buku category="Programming">
+        <judul bahasa="en">Pemrograman PHP</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2005</tahun>
+        <harga>80.000</harga>
+    </buku>
+    <buku category="Programming">
+        <judul bahasa="en">Pemrograman Java</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2004</tahun>
+        <harga>90.000</harga>
+    </buku>
+    <buku category="WEB">
+        <judul bahasa="en">Pemrograman CSS</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2009</tahun>
+        <harga>50.000</harga>
+    </buku>
+    <buku category="Novel">
+        <judul bahasa="en">Sherlock Holmes</judul>
+        <pengarang>Sir Arthur Conan D.</pengarang>
+        <tahun>2009</tahun>
+        <harga>59.000</harga>
+    </buku>
+    <buku category="Sastra">
+        <judul bahasa="en">Tuhan Maha Asik</judul>
+        <pengarang>Sujiwo Tejo</pengarang>
+        <tahun>2009</tahun>
+        <harga>69.000</harga>
+    </buku>
+</katalog>
