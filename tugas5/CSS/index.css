@@ -1,0 +1,147 @@
+.container {
+    display: grid;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    background: greenyellow;
+}
+
+.menu>div {
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.menu>div:nth-child(1n) {
+    text-align: center;
+    background: rebeccapurple;
+    height: 30px;
+    width: auto;
+}
+
+.menu {
+    background: rgb(86, 51, 212);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.konten>iframe {
+    height: 550px;
+    width: 100%;
+    align-content: center;
+}
+
+.konten {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    background: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a :visited {
+    color: greenyellow;
+}
+
+
+/*Untuk layar Mobile landscape*/
+
+@media screen and (max-width: 1080px) {
+    .container {
+        display: grid;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 50px;
+        background: greenyellow;
+    }
+    .menu>div {
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .menu>div:nth-child(1n) {
+        text-align: center;
+        background: rebeccapurple;
+        height: 30px;
+        width: auto;
+    }
+    .menu {
+        background: rgb(86, 51, 212);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .konten>iframe {
+        height: 550px;
+        width: 100%;
+        align-content: center;
+    }
+    .konten {
+        display: flex;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 50px;
+        background: yellow;
+    }
+}
+
+
+/*Layar Mobile*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: grid;
+    }
+    .header {
+        grid-column: 1/-1;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .menu {
+        grid-column: 1/-1;
+        flex-direction: column;
+    }
+    .menu>div {
+        border: 2px solid dodgerblue;
+        padding: 5px;
+    }
+    .content {
+        grid-column: 1/-1;
+    }
+    .content>iframe {
+        width: 80%;
+        height: 550px;
+    }
+    .footer {
+        grid-column: 1/-1;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}

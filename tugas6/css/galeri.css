@@ -1,0 +1,154 @@
+.BOX {
+    background: blue;
+    width: 780px;
+    height: 390px;
+}
+
+.img {
+    border: 1px solid;
+    width: 105px;
+    height: 140px;
+    padding: 5px;
+    margin: 15px;
+}
+
+@media screen and (max-width: 1080px) {
+    .BOX {
+        background: blueviolet;
+        width: auto;
+        height: 100%;
+    }
+    .img {
+        border: 1px solid;
+        width: 25%;
+        height: 15%;
+        padding: 5px;
+        margin: 15px;
+    }
+    .bgheader {
+        font-size: 30px;
+        background: khaki;
+        border: 5px solid slategray;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .BOX {
+        background: yellow;
+        width: 100%;
+        height: 100%;
+    }
+    .img {
+        background: palegreen;
+        border: 1px solid;
+        width: 25%;
+        height: 15%;
+    }
+    .bgheader {
+        width: auto;
+        font-size: 30px;
+        background: khaki;
+        border: 5px solid slategray;
+    }
+}
+
+.containergal>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.containergal {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 600px;
+}
+
+.header {
+    background: lightblue;
+    grid-column: 1 / -1;
+}
+
+.pagarkiri>img {
+    grid-row: 2/3;
+    width: 105px;
+    height: 600px;
+}
+
+.pagarkanan>img {
+    grid-column: -2/ -1;
+    width: 105px;
+    height: 600px;
+}
+
+.conten {
+    grid-column: 2/ -2;
+    grid-row: 2/-2;
+}
+
+@media screen and (max-width: 1080px) {
+    .containergal>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .containergal {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 100px 600px;
+    }
+    .header {
+        background: lightblue;
+        grid-column: 1 / -1;
+    }
+    .pagarkiri>img {
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+    }
+    .pagarkanan>img {
+        grid-column: -2/ -1;
+        width: 100%;
+        height: 100%;
+    }
+    .conten {
+        width: auto;
+        grid-column: 2/ -2;
+        grid-row: 2/-2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .containergal>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .containergal {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto auto;
+    }
+    .header {
+        background: lightblue;
+        grid-column: 1 / -1;
+    }
+    .pagarkiri>img {
+        grid-row: 2/3;
+        width: 100%;
+        height: 100%;
+    }
+    .pagarkanan>img {
+        grid-column: -2/ -1;
+        width: 100%;
+        height: 100%;
+    }
+    .conten {
+        width: auto;
+        grid-column: 2/ -2;
+        grid-row: 2/-2;
+    }
+}

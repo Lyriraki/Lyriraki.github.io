@@ -1,0 +1,34 @@
+/*BAGIAN BIO*/
+
+
+/*Merubah Family Text*/
+
+.tabelbio1 {
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Merubah Style Text dan background*/
+
+.tabelbio2 {
+    background-color: aqua;
+    font-style: italic;
+}
+
+
+/*Merubah Family dan warna Text*/
+
+.foot {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.link {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.link :visited {
+    color: greenyellow;
+}
