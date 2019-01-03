@@ -1,0 +1,52 @@
+/*BAGIAN KRS*/
+/*Merubah font menjadi Bold*/
+.tabelkrsatas {
+    font-weight: bold;
+}
+
+/*Mengubah Background*/
+.tabelkrsbrown {
+    background-color: darkgray;
+}
+
+/*Menghilangakn garis pada bawah dan kanan tabel*/
+.tabelkrshilang {
+    border-bottom: none;
+    border-right: none;
+}
+
+/*Merubah posisi Text*/
+.tabelkrstengah {
+    text-align: center;
+}
+
+/*Merubah posisi Text*/
+.tabelkrskiri {
+    text-align: left;
+}
+
+/*BAGIAN BIO*/
+/*Merubah Family Text*/
+.tabelbio1 {
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Merubah Style Text dan background*/
+.tabelbio2 {
+    background-color: aqua;
+    font-style: italic;
+}
+
+/*BAGIAN BIODATA*/
+/*Merubah Family dan warna Text*/
+.tabelbiodata {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gold;
+}
+
+/*Merubah Family dan warna Text*/
+.foot {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}

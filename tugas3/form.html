@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Penerimaan</title>
+</head>
+
+<body>
+    <h1>FORM PENDAFTARAN</h1>
+    <table border="0">
+        <form action="hasil.php" method="get">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama" /></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" name="password" /></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jenisk" value="Laki-laki" checked /> Laki-laki</td>
+                <td><input type="radio" name="jenisk" value="Perempuan" /> Perempuan</td>
+            </tr>
+            <tr>
+                <td>Keahlian</td>
+                <td>:</td>
+                <td><input type="checkbox" name="Keahlian" value="Memancing" /> Memancing</td>
+                <td><input type="checkbox" name="Keahlian" value="Main Musik" /> Main Musik</td>
+                <td><input type="checkbox" name="Keahlian" value="Memasak" /> Memasak</td>
+            </tr>
+
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td>
+                    <select name="Tempat">
+                            <option value="Semarang">Semarang</option>
+                            <option value="Solo">Solo</option>
+                            <option value="Jogja">Jogja</option>
+                            <option value="Hokaido">Hokaido</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Deskripsi Diri</td>
+            </tr>
+            <tr>
+                <td><textarea name="Deskripsi" rows="7px" cols="25px"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="enter"> &nbsp;<input type="reset" value="reset"></td>
+            </tr>
+
+
+        </form>
+    </table>
+</body>
+
+</html>

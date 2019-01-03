@@ -1,0 +1,29 @@
+#BOX {
+    background: whitesmoke;
+    border: 5px solid black;
+    width: 780px;
+    height: 390px;
+}
+
+.Judul {
+    background: rgb(75, 181, 216);
+    width: 800px;
+    height: 470px;
+    border: 10px solid grey;
+    padding: 25px;
+    margin: 25px;
+}
+
+.img {
+    border: 1px solid;
+    width: 105px;
+    height: 140px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.bgheader {
+    font-size: 30px;
+    background: khaki;
+    border: 5px solid slategray;
+}

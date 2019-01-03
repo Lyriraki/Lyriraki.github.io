@@ -1,0 +1,39 @@
+.containergal>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.containergal {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 600px;
+}
+
+.header {
+    background: lightblue;
+    grid-column: 1 / -1;
+}
+
+.pagarkiri>img {
+    grid-row: 2/3;
+    width: 105px;
+    height: 600px;
+}
+
+.pagarkanan>img {
+    grid-column: -2/ -1;
+    width: 105px;
+    height: 600px;
+}
+
+.conten {
+    grid-column: 2/ -2;
+    grid-row: 2/-2;
+}
+
+#latar {
+    background-image: url("foto/bgg1.jpg");
+    width: 1050px;
+}
